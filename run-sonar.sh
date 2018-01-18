@@ -232,8 +232,9 @@ fi
 echo 'Running SonarQube using SonarQube Scanner'
 sonar-scanner
 
-rm -rf compile_commands.json
 rm -rf sonar-reports
+rm -rf build
+rm -rf compile_commands.json
 rm -rf xcodebuild.log
 rm -rf .scannerwork
 
